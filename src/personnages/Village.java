@@ -55,7 +55,7 @@ public class Village {
 //		System.out.println((gaulois.getNom()));
 //		System.out.println(gaulois);
 //		Ces lignes provoquent une erreur car il n'y a aucun villageois à l'indice 1
-		Gaulois obelix = new Gaulois("Obélix", 25);
+		Gaulois obelix = new Gaulois("Ob�lix", 25);
 		village.ajouterHabitant(obelix);
 		village.afficherVillageois();
 
